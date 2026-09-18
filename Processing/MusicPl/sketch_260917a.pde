@@ -33,8 +33,8 @@ void draw() {
 
 void mousePressed() {
   // Toggle Mplay box visibility when clicking openmsc box
-  if (mouseX >= openmscX && mouseX <= openmscX + openmscWidth &&
-      mouseY >= openmscY && mouseY <= openmscY + openmscHeight) {
+  if (mouseX >= openmscX && mouseX <= openmscX + openmscWidth && //mouseX >= 3, mouseX <= 3 + Hidth
+      mouseY >= openmscY && mouseY <= openmscY + openmscHeight) { //mouseY >=10, mouseY <= 10 + Height
     showMplay = !showMplay;
   }
 }
