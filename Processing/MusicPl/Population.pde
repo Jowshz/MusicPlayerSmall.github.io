@@ -15,7 +15,7 @@ void population() {
   
   // Y-axis uses 12 units along the sides
   openmscHeight = appHeight * 1.5 / 12.0;  
-  openmscY = appHeight * 10.0 / 12.0;// Posi tioned near bottom edge (10/12 down)
+  openmscY = appHeight * 10.0 / 12.0;// Positioned near bottom edge (10/12 down)
   
   MplayHeight = appHeight * 3.0/12.0; 
   MplayY = appHeight * 2/12.0;
