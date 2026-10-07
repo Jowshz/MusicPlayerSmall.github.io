@@ -56,8 +56,29 @@ void divs() {
   //Error Check
   //
   //Buttons
-  //Cover1-3
+  
+   //QUIT & Music Button
   int i = 4;
+  divs[i] = appWidth * 13.5 / 16.0;
+  i++;
+  divs[i] = appHeight * 0.5 / 12.0;
+  i++;
+  divs[i] = appWidth * 2.0/16;
+  i++;
+  divs[i] = appHeight * 1.0 / 12.0;
+  
+  //Music Button
+  i++;
+  divs[i] = appWidth * 0.5 / 16.0;
+  i++;
+  divs[i] = appHeight * 10.0 / 12.0;  
+  i++;
+  divs[i] = appWidth * 3.0 / 16.0; 
+  i++;
+  divs[i] = appHeight * 1.5 / 12.0;
+  
+  //Cover1-3
+  i++;
   divs[i] = column1;
   i++;
   divs[i] = row1;
