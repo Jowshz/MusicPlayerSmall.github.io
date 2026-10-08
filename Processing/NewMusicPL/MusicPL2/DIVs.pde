@@ -57,7 +57,7 @@ void divs() {
   //
   //Buttons
   
-   //QUIT & Music Button
+   //QUIT & Music Button 0-7
   int i = 4;
   divs[i] = appWidth * 13.5 / 16.0;
   i++;
@@ -77,7 +77,7 @@ void divs() {
   i++;
   divs[i] = appHeight * 1.5 / 12.0;
   
-  //Cover1-3
+  //Cover1-3 8-19
   i++;
   divs[i] = column1;
   i++;
@@ -105,7 +105,7 @@ void divs() {
   i++;
   divs[i] = CovBut;
   
-  //BigPic
+  //BigPic 20-23
   i++; 
   divs[i] = column2;
   i++;
@@ -115,7 +115,7 @@ void divs() {
   i++;
   divs[i] = BigpicH;
   
-  //Song Title
+  //Song Title 24-27
   i++; 
   divs[i] = column3;
   i++;
@@ -125,7 +125,7 @@ void divs() {
   i++;
   divs[i] = SongNameH;
   
-  //Artist
+  //Artist //28-31
   i++; 
   divs[i] = column4;
   i++;
@@ -135,7 +135,7 @@ void divs() {
   i++;
   divs[i] = ArtistH;
   
-  //SongNumber1-2
+  //SongNumber1-2 // 32-35
   i++; 
   divs[i] = column1;
   i++;
@@ -146,7 +146,7 @@ void divs() {
   divs[i] = SongTimeH12;
   
   i++; // 2
-  divs[i] = column9;
+  divs[i] = column9; //36-39
   i++;
   divs[i] = row6;
   i++;
@@ -154,7 +154,7 @@ void divs() {
   i++;
   divs[i] = SongTimeH12;
   
-  //SongBar
+  //SongBar //40-43
   i++; 
   divs[i] = column1;
   i++;
@@ -164,7 +164,7 @@ void divs() {
   i++;
   divs[i] = SongBarH;
   
-  //Buttons1-5
+  //Buttons1-5 44-63
   i++; 
   divs[i] = column3;
   i++;
@@ -209,11 +209,6 @@ void divs() {
   divs[i] = CovBut;
   i++;
   divs[i] = CovBut;
-
-  // Draw all rectangles using step-by-4 loop
-  for ( int j=0; j<divs.length; j+=4 ) {
-    rectDIV(divs[j], divs[j+1], divs[j+2], divs[j+3]);
-  } // End DIVs FOR
   //
 }// End DIVs
 
